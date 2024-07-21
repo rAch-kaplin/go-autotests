@@ -1,7 +1,7 @@
 SHELL=/bin/bash
 
 AUTOTESTS = metricstest
-UTILS = statictest 
+UTILS = random statictest 
 
 all: prep autotests utils perm
 
